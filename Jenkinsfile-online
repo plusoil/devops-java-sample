@@ -18,6 +18,7 @@ pipeline {
         GITHUB_ACCOUNT = 'plusoil'
         APP_NAME = 'devops-java-sample'
     }
+    
 
     stages {
         stage ('checkout scm') {
